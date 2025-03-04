@@ -1,0 +1,65 @@
+body {
+    direction: rtl; 
+    background-color: rgb(207, 241, 241);
+    text-align: center; 
+    margin: 0; 
+    line-height: 1.8;
+    height: 100vh; 
+    position: relative; 
+}
+
+
+header {
+    background-color: #258628;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+input {
+    width: 320px; 
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+#itemBtn {
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 10px; 
+}
+
+
+#itemList {
+
+    width: 400px; 
+    font-size: 30px;
+    padding: 10px;
+    margin: 20px auto; 
+    border-radius: 10px;
+    border: none;
+  background-color: rgb(19, 111, 19);
+    color: rgb(246, 18, 18);
+    list-style: none; 
+    text-align: right; 
+    display: none;
+}
+
+#itemList li {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 10px; 
+    background: rgb(207, 238, 240); 
+    border-radius: 10px; 
+    margin-bottom: 10px; 
+   
+  }
+
